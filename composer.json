@@ -1,9 +1,9 @@
 {
-    "name": "chumper/zipper",
+    "name": "rdtvaacar/zipper",
     "type": "library",
     "description": "This is a little neat helper for the ZipArchive methods with handy functions",
     "keywords": ["laravel", "ZIP", "Archive"],
-    "homepage": "http://github.com/Chumper/zipper",
+    "homepage": "http://github.com/Rdtvaacar/zipper",
     "license": "Apache2",
     "authors": [
         {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Chumper\\Zipper\\": "src/Chumper/Zipper"
+            "Rdtvaacar\\Zipper\\": "src/Rdtvaacar/Zipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chumper\\Zipper\\": "tests/"
+            "Rdtvaacar\\Zipper\\": "tests/"
         }
     },
     "config": {
@@ -39,10 +39,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chumper\\Zipper\\ZipperServiceProvider"
+                "Rdtvaacar\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
-                "Zipper": "Chumper\\Zipper\\Zipper"
+                "Zipper": "Rdtvaacar\\Zipper\\Zipper"
             }
         }
     },
